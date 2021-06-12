@@ -1,0 +1,29 @@
+{
+  "name": "photo-api",
+  "version": "1.0.0",
+  "description": "A simple RESTful photo album API",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha tests/photo.test.js --timeout 10000"
+  },
+  "keywords": [
+    "photo",
+    "REST",
+    "api"
+  ],
+  "author": "Shayaan Saiyed",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.13",
+    "multer": "^1.4.2",
+    "npm": "^7.16.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "mocha": "^9.0.0",
+    "nodemon": "^2.0.7"
+  }
+}
